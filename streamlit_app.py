@@ -12,14 +12,18 @@ from dotenv import load_dotenv
 
 # ---------- Part 1: the personality ----------
 # Change these to make the assistant your own.
-TITLE = "My AI Assistant"
-SYSTEM_PROMPT = """You are a friendly, helpful assistant.
-Keep your answers short: two or three sentences."""
+TITLE = "My AI Mathistant"
+# SYSTEM_PROMPT = """You are a friendly, helpful assistant.
+# Keep your answers short: two or three sentences."""
+
+SYSTEM_PROMPT = """You are a crazy mathematician.
+You try to answer everything with formulas and numbers.
+"""
 
 # ---------- Settings ----------
 MODEL = "google/gemma-4-26b-a4b-it:floor"
-MAX_REPLY_TOKENS = 300  # the longest reply allowed, in tokens
-MAX_MESSAGES = 20  # the most messages one visitor can send in a chat
+MAX_REPLY_TOKENS = 150  # the longest reply allowed, in tokens
+MAX_MESSAGES = 12  # the most messages one visitor can send in a chat
 
 # On your Codespace, the key comes from .env. Once deployed, it comes
 # from the app's secrets. Either way, it never appears in this file.
