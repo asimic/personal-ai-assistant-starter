@@ -5,3 +5,6 @@
 # Python and notebook clutter
 __pycache__/
 .ipynb_checkpoints/
+
+# me
+.venv/
